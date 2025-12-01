@@ -1,0 +1,15 @@
+{
+  "Version": "1.0",
+  "ToolId": "Valves",
+  "RootNamespace": "AutoCAD2020.Valves",
+  "ClassIds": [
+    "AutoCAD2020.Valves.BlockInsertService",
+    "AutoCAD2020.Valves.ChangeHistoryService",
+    "AutoCAD2020.Valves.InsertValveCommand",
+    "AutoCAD2020.Valves.PipeInfo",
+    "AutoCAD2020.Valves.PipeReader",
+    "AutoCAD2020.Valves.ValveMetadata",
+    "AutoCAD2020.Valves.ValveMetadataLinker",
+    "AutoCAD2020.Valves.ValveTagCommand"
+  ]
+}

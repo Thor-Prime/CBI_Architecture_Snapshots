@@ -1,0 +1,8 @@
+{
+  "Version": "1.0",
+  "ToolId": "Debugging",
+  "RootNamespace": "AutoCAD2020.Debugging",
+  "ClassIds": [
+    "AutoCAD2020.Debugging.XDataDump"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "Version": "1.0",
+  "ToolId": "Sheet_Set_Manager",
+  "RootNamespace": "AutoCAD2020.Sheet_Set_Manager",
+  "ClassIds": [
+    "AutoCAD2020.Sheet_Set_Manager.SheetSetEditorPaletteControl",
+    "AutoCAD2020.Sheet_Set_Manager.SheetSetEditorPaletteHost"
+  ]
+}

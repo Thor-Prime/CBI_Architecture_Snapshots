@@ -1,0 +1,3860 @@
+{
+  "Version": "1.0",
+  "ToolId": "Tagging",
+  "RootNamespace": "AutoCAD2020.Tagging",
+  "Nodes": [
+    {
+      "Id": "AutoCAD.OPC",
+      "Name": "OPC",
+      "Namespace": "AutoCAD",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD.OPC.OPCInfo",
+      "Name": "OPCInfo",
+      "Namespace": "AutoCAD",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD.Tagging.UI.TagManagerControl",
+      "Name": "TagManagerControl",
+      "Namespace": "AutoCAD.Tagging.UI",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.BlockTools.BlockAttributeExtractor",
+      "Name": "BlockAttributeExtractor",
+      "Namespace": "AutoCAD2020.BlockTools",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.BlockAttributeInfo",
+      "Name": "BlockAttributeInfo",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.BlockAttributeReader",
+      "Name": "BlockAttributeReader",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.CBIValveKeyUtil",
+      "Name": "CBIValveKeyUtil",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.TagConstants",
+      "Name": "TagConstants",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.TagIndexUtil",
+      "Name": "TagIndexUtil",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.TagNames",
+      "Name": "TagNames",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.ValveBubbleLinkUtil",
+      "Name": "ValveBubbleLinkUtil",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.XDataLinkUtil",
+      "Name": "XDataLinkUtil",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Block_Operations.XDataLinkUtil.XMap",
+      "Name": "XMap",
+      "Namespace": "AutoCAD2020.Block_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.Collectors.NODCollector",
+      "Name": "NODCollector",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.Collectors",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.Collectors.XDataCollector",
+      "Name": "XDataCollector",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.Collectors",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.Collectors.XRecordCollector",
+      "Name": "XRecordCollector",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.Collectors",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.Models.PropertyItem",
+      "Name": "PropertyItem",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.Models",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.UI.CBIDataExplorerControl",
+      "Name": "CBIDataExplorerControl",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.UI",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CBI_Data_Explorer.UI.PaletteSetManager",
+      "Name": "PaletteSetManager",
+      "Namespace": "AutoCAD2020.CBI_Data_Explorer.UI",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.CadLayerService",
+      "Name": "CadLayerService",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.DocumentLockHelper",
+      "Name": "DocumentLockHelper",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.LayerDefinitionDeserializer_A2020",
+      "Name": "LayerDefinitionDeserializer_A2020",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.LayerExcelImporter",
+      "Name": "LayerExcelImporter",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.NODLayerImporter",
+      "Name": "NODLayerImporter",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.XDataUtil",
+      "Name": "XDataUtil",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.CadInterop.XRecordHelper",
+      "Name": "XRecordHelper",
+      "Namespace": "AutoCAD2020.CadInterop",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Commands",
+      "Name": "Commands",
+      "Namespace": "AutoCAD2020",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Debugging.XDataDump",
+      "Name": "XDataDump",
+      "Namespace": "AutoCAD2020.Debugging",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.DrawingSearchers.AutoCADDrawingSearcher",
+      "Name": "AutoCADDrawingSearcher",
+      "Namespace": "AutoCAD2020.DrawingSearchers",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.DrawingSearchers.DrawingEntitySearcher",
+      "Name": "DrawingEntitySearcher",
+      "Namespace": "AutoCAD2020.DrawingSearchers",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager",
+      "Name": "DrawingManager",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.ChangeHistory",
+      "Name": "ChangeHistory",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.ChangeHistoryEntry",
+      "Name": "ChangeHistoryEntry",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.ChangeHistoryManager",
+      "Name": "ChangeHistoryManager",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.ChangeLog",
+      "Name": "ChangeLog",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.ChangeRecord",
+      "Name": "ChangeRecord",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.Coordinates",
+      "Name": "Coordinates",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Drawing_Operations.DrawingManager.LockingValidation",
+      "Name": "LockingValidation",
+      "Namespace": "AutoCAD2020.Drawing_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.BlockAttribPropPaletteControl",
+      "Name": "BlockAttribPropPaletteControl",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.CBI_Search",
+      "Name": "CBI_Search",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.CBI_Search.ChangeHistory",
+      "Name": "ChangeHistory",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.CBI_Search.ChangeRecord",
+      "Name": "ChangeRecord",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.Development.BlockAttributeGridForm",
+      "Name": "BlockAttributeGridForm",
+      "Namespace": "AutoCAD2020.Forms.Development",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.Development.BlockAttributeGridForm.Row",
+      "Name": "Row",
+      "Namespace": "AutoCAD2020.Forms.Development",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.Find",
+      "Name": "Find",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.Form1",
+      "Name": "Form1",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.GeometryExporter",
+      "Name": "GeometryExporter",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.LayerUtility",
+      "Name": "LayerUtility",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.LayerUtilityValidation",
+      "Name": "LayerUtilityValidation",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.LayerValidationResult",
+      "Name": "LayerValidationResult",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.LineSegmentLoader",
+      "Name": "LineSegmentLoader",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.TagManager.TagManagerControl",
+      "Name": "TagManagerControl",
+      "Namespace": "AutoCAD2020.Forms.TagManager",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.TagManager.TagManagerControl.TagRow",
+      "Name": "TagRow",
+      "Namespace": "AutoCAD2020.Forms.TagManager",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.TagManager.TagManagerPaletteHost",
+      "Name": "TagManagerPaletteHost",
+      "Namespace": "AutoCAD2020.Forms.TagManager",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.TagManagerForm",
+      "Name": "TagManagerForm",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Forms.TagManagerForm.Row",
+      "Name": "Row",
+      "Namespace": "AutoCAD2020.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.InquiryTools.ObjectIdViewer",
+      "Name": "ObjectIdViewer",
+      "Namespace": "AutoCAD2020.InquiryTools",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Layer_Operations.ColorNameHelper",
+      "Name": "ColorNameHelper",
+      "Namespace": "AutoCAD2020.Layer_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Layer_Operations.LayerDefinitionTyped",
+      "Name": "LayerDefinitionTyped",
+      "Namespace": "AutoCAD2020.Layer_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Layer_Operations.LayerFieldConverter",
+      "Name": "LayerFieldConverter",
+      "Namespace": "AutoCAD2020.Layer_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.NOD_X_Data.NODTypeValidator",
+      "Name": "NODTypeValidator",
+      "Namespace": "AutoCAD2020.NOD_X_Data",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.NOD_X_Data.NODWriter",
+      "Name": "NODWriter",
+      "Namespace": "AutoCAD2020.NOD_X_Data",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.NOD_X_Data.ProjectStoreNod",
+      "Name": "ProjectStoreNod",
+      "Namespace": "AutoCAD2020.NOD_X_Data",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Objects.PipeObject",
+      "Name": "PipeObject",
+      "Namespace": "AutoCAD2020.Objects",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.BindCurrentDrawingCommand",
+      "Name": "BindCurrentDrawingCommand",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.NewProjectCommands",
+      "Name": "NewProjectCommands",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.OpenSupportFolderCommand",
+      "Name": "OpenSupportFolderCommand",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectBindingChangedEventArgs",
+      "Name": "ProjectBindingChangedEventArgs",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectBindingService",
+      "Name": "ProjectBindingService",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectContextBridge",
+      "Name": "ProjectContextBridge",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectNodBinder",
+      "Name": "ProjectNodBinder",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectRepairCommands",
+      "Name": "ProjectRepairCommands",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagPath",
+      "Name": "ProjectTagPath",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore",
+      "Name": "ProjectTagStore",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.ConfigBlock",
+      "Name": "ConfigBlock",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.EditedHints",
+      "Name": "EditedHints",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.HistoryEvent",
+      "Name": "HistoryEvent",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.ProjectDrawingInfo",
+      "Name": "ProjectDrawingInfo",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.ProjectMetadata",
+      "Name": "ProjectMetadata",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.SystemConfig",
+      "Name": "SystemConfig",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ProjectTagStore.TagRecord",
+      "Name": "TagRecord",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.ProjectStore.ReconcileCurrentDrawing",
+      "Name": "ReconcileCurrentDrawing",
+      "Namespace": "AutoCAD2020.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Properties.Resources",
+      "Name": "Resources",
+      "Namespace": "AutoCAD2020.Properties",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.CbiPropertiesPalette",
+      "Name": "CbiPropertiesPalette",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.ComponentProperties",
+      "Name": "ComponentProperties",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.ComponentPropertyProvider",
+      "Name": "ComponentPropertyProvider",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.ComponentPropertyProvider.ProviderUtil",
+      "Name": "ProviderUtil",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.DynamicNumberGroup",
+      "Name": "DynamicNumberGroup",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.DynamicNumberGroup.NumberPropDescriptor",
+      "Name": "NumberPropDescriptor",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.InstrumentProperties",
+      "Name": "InstrumentProperties",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.InstrumentPropertyProvider",
+      "Name": "InstrumentPropertyProvider",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.InstrumentPropertyProvider.ProviderUtil",
+      "Name": "ProviderUtil",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.LayerNameConverter",
+      "Name": "LayerNameConverter",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.LayerRules",
+      "Name": "LayerRules",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.LineTagSettings",
+      "Name": "LineTagSettings",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.LineTagSettings.TagsPreview",
+      "Name": "TagsPreview",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.MasterProperties",
+      "Name": "MasterProperties",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunAssociationCommands",
+      "Name": "PipeRunAssociationCommands",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunMatchCommands",
+      "Name": "PipeRunMatchCommands",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunMatchService",
+      "Name": "PipeRunMatchService",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunProperties",
+      "Name": "PipeRunProperties",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunPropertyProvider",
+      "Name": "PipeRunPropertyProvider",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PipeRunXDataFixCommands",
+      "Name": "PipeRunXDataFixCommands",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PropertiesControl",
+      "Name": "PropertiesControl",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PropertiesControl.Placeholder",
+      "Name": "Placeholder",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.PropertyRouter",
+      "Name": "PropertyRouter",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.SelectionContext",
+      "Name": "SelectionContext",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.TagNumbersView",
+      "Name": "TagNumbersView",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.XDataDumpCommands",
+      "Name": "XDataDumpCommands",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.XDataHelpers",
+      "Name": "XDataHelpers",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.XDataMap",
+      "Name": "XDataMap",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.PropertiesHub.XDataQaqc",
+      "Name": "XDataQaqc",
+      "Namespace": "AutoCAD2020.PropertiesHub",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Ribbon.PluginEntry",
+      "Name": "PluginEntry",
+      "Namespace": "AutoCAD2020.Ribbon",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Ribbon.RibbonCommandHandler",
+      "Name": "RibbonCommandHandler",
+      "Namespace": "AutoCAD2020.Ribbon",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Ribbon.RibbonInitializer",
+      "Name": "RibbonInitializer",
+      "Namespace": "AutoCAD2020.Ribbon",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Ribbon.RibbonSplitButtonExtensions",
+      "Name": "RibbonSplitButtonExtensions",
+      "Namespace": "AutoCAD2020.Ribbon",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.AddControlTagService",
+      "Name": "AddControlTagService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.FormLauncher",
+      "Name": "FormLauncher",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.TagAddService",
+      "Name": "TagAddService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.TagIntegrityScan",
+      "Name": "TagIntegrityScan",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.TagNumberingService",
+      "Name": "TagNumberingService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.TagValidationService",
+      "Name": "TagValidationService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.ValveLabelService",
+      "Name": "ValveLabelService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.ValveLinkReporter",
+      "Name": "ValveLinkReporter",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.ValveTagService",
+      "Name": "ValveTagService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.XDataQaqc",
+      "Name": "XDataQaqc",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Services.XDataQaqcService",
+      "Name": "XDataQaqcService",
+      "Namespace": "AutoCAD2020.Services",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Sheet_Set_Manager.SheetSetEditorPaletteControl",
+      "Name": "SheetSetEditorPaletteControl",
+      "Namespace": "AutoCAD2020.Sheet_Set_Manager",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Sheet_Set_Manager.SheetSetEditorPaletteHost",
+      "Name": "SheetSetEditorPaletteHost",
+      "Namespace": "AutoCAD2020.Sheet_Set_Manager",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore",
+      "Name": "ITagNumberingStore",
+      "Namespace": "AutoCAD2020.Tagging.Abstractions",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 1,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Abstractions.ITagService",
+      "Name": "",
+      "Namespace": "",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "Name": "LineTagCommands",
+      "Namespace": "AutoCAD2020.Tagging.Commands",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Commands\\LineTagCommands.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 1,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Commands.TagManagerCommands",
+      "Name": "TagManagerCommands",
+      "Namespace": "AutoCAD2020.Tagging.Commands",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Commands\\TagManagerCommands.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "Name": "LabelLinkData",
+      "Namespace": "AutoCAD2020.Tagging.Models",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Models\\LabelLinkData.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Parsers.BlockTagParser",
+      "Name": "BlockTagParser",
+      "Namespace": "AutoCAD2020.Tagging.Parsers",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Parsers\\BlockTagParser.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Parsers.LineTagParser",
+      "Name": "LineTagParser",
+      "Namespace": "AutoCAD2020.Tagging.Parsers",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Parsers\\LineTagParser.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "Name": "ValveTagParser",
+      "Namespace": "AutoCAD2020.Tagging.Parsers",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Parsers\\ValveTagParser.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 4,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "Name": "MTextRenderer",
+      "Namespace": "AutoCAD2020.Tagging.Rendering",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Rendering\\MTextRenderer.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Rendering.TagRenderOptions",
+      "Name": "TagRenderOptions",
+      "Namespace": "AutoCAD2020.Tagging.Rendering",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Rendering\\TagRenderOptions.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "Name": "LabelLinkService",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\LabelLinkService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 10,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.LineTagService",
+      "Name": "LineTagService",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\LineTagService.cs",
+      "BaseTypes": [],
+      "Interfaces": [
+        "AutoCAD2020.Tagging.Abstractions.ITagService"
+      ],
+      "MethodCount": 11,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.NODStoreAdapter",
+      "Name": "NODStoreAdapter",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\NODStoreAdapter.cs",
+      "BaseTypes": [],
+      "Interfaces": [
+        "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore"
+      ],
+      "MethodCount": 2,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "Name": "NodLineNumberStore",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\NodLineNumberStore.cs",
+      "BaseTypes": [],
+      "Interfaces": [
+        "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore"
+      ],
+      "MethodCount": 6,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ProjectTagStoreAdapter",
+      "Name": "ProjectTagStoreAdapter",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ProjectTagStoreAdapter.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 5,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "Name": "SmartLabelServices",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\SmartLabelService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 8,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.TagAddService",
+      "Name": "TagAddService",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\TagAddService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 5,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.TagAllocator_V2",
+      "Name": "TagAllocator_V2",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\TagAllocator_V2.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 5,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "Name": "ValveInsertService",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 12,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.BlockLoadConfig",
+      "Name": "BlockLoadConfig",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.ChangeHistoryHook",
+      "Name": "ChangeHistoryHook",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 1,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.Constants",
+      "Name": "Constants",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "Name": "NodSequenceManager",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 1,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "Name": "NodValveRegistry",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 1,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.Services.ValveInsertService.ValveInsertOptions",
+      "Name": "ValveInsertOptions",
+      "Namespace": "AutoCAD2020.Tagging.Services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\ValveInsertService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "Name": "TagManagerControl",
+      "Namespace": "AutoCAD2020.Tagging.UI",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\UI\\TagManagerControl.cs",
+      "BaseTypes": [
+        "System.Windows.Forms.UserControl"
+      ],
+      "Interfaces": [
+        "System.Windows.Forms.IDropTarget",
+        "System.ComponentModel.ISynchronizeInvoke",
+        "System.Windows.Forms.IWin32Window",
+        "System.Windows.Forms.IBindableComponent",
+        "System.Windows.Forms.Layout.IArrangedElement",
+        "System.ComponentModel.IComponent",
+        "System.IDisposable",
+        "System.Windows.Forms.IContainerControl"
+      ],
+      "MethodCount": 8,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.UI.TagManagerPalette",
+      "Name": "TagManagerPalette",
+      "Namespace": "AutoCAD2020.Tagging.UI",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\UI\\TagManagerPalette.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 5,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.services.TagManagerService",
+      "Name": "TagManagerService",
+      "Namespace": "AutoCAD2020.Tagging.services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\TagManagerService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 8,
+      "IsExternal": false,
+      "ProjectHint": "AutoCAD2020"
+    },
+    {
+      "Id": "AutoCAD2020.Tagging.services.TagManagerService.BlockReferencePromptResult",
+      "Name": "BlockReferencePromptResult",
+      "Namespace": "AutoCAD2020.Tagging.services",
+      "FilePath": "C:\\Users\\Brian.ranstead\\OneDrive - McDermott, Inc\\Documents\\Source\\AutoCAD\\AutoCAD\\Tagging\\Services\\TagManagerService.cs",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.AttributeHelper",
+      "Name": "AttributeHelper",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.AutoCADUtilities2020",
+      "Name": "AutoCADUtilities2020",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.ChangeLog",
+      "Name": "ChangeLog",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.DBTextHelper",
+      "Name": "DBTextHelper",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.EditorExtensions",
+      "Name": "EditorExtensions",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.MTextHelper",
+      "Name": "MTextHelper",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.PaletteStateManager",
+      "Name": "PaletteStateManager",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.SupportFileService",
+      "Name": "SupportFileService",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Utilities.SupportTemplates",
+      "Name": "SupportTemplates",
+      "Namespace": "AutoCAD2020.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.BlockInsertService",
+      "Name": "BlockInsertService",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.ChangeHistoryService",
+      "Name": "ChangeHistoryService",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.InsertValveCommand",
+      "Name": "InsertValveCommand",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.PipeInfo",
+      "Name": "PipeInfo",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.PipeReader",
+      "Name": "PipeReader",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.ValveMetadata",
+      "Name": "ValveMetadata",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.ValveMetadataLinker",
+      "Name": "ValveMetadataLinker",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD2020.Valves.ValveTagCommand",
+      "Name": "ValveTagCommand",
+      "Namespace": "AutoCAD2020.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.DTOs.ValveMetadata",
+      "Name": "ValveMetadata",
+      "Namespace": "AutoCAD_Shared_Project.DTOs",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Forms.FormResizer",
+      "Name": "FormResizer",
+      "Namespace": "AutoCAD_Shared_Project.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Forms.NotificationHelper",
+      "Name": "NotificationHelper",
+      "Namespace": "AutoCAD_Shared_Project.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.LayerDefinition",
+      "Name": "LayerDefinition",
+      "Namespace": "AutoCAD_Shared_Project",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Layer_Operations.LayerDefinitionDeserializer_ASP",
+      "Name": "LayerDefinitionDeserializer_ASP",
+      "Namespace": "AutoCAD_Shared_Project.Layer_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Layer_Operations.LineweightHelper",
+      "Name": "LineweightHelper",
+      "Namespace": "AutoCAD_Shared_Project.Layer_Operations",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.BlocksEntry",
+      "Name": "BlocksEntry",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.DrawingEntry",
+      "Name": "DrawingEntry",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.NewProjectBuilder",
+      "Name": "NewProjectBuilder",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectEntry",
+      "Name": "ProjectEntry",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectSettingsService",
+      "Name": "ProjectSettingsService",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Shared"
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectStorePaths",
+      "Name": "ProjectStorePaths",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreService",
+      "Name": "ProjectStoreService",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Shared"
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreService.SystemNextInfo",
+      "Name": "SystemNextInfo",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreSnapshot",
+      "Name": "ProjectStoreSnapshot",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreValidator",
+      "Name": "ProjectStoreValidator",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.SafeStoreAllocator",
+      "Name": "SafeStoreAllocator",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.SafeStoreAllocator.AllocResult",
+      "Name": "AllocResult",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.SafeStoreAllocator.StoreConfigLite",
+      "Name": "StoreConfigLite",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.StoreGuards",
+      "Name": "StoreGuards",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Shared"
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.TagChannel",
+      "Name": "TagChannel",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.TagStoreV1",
+      "Name": "TagStoreV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Shared"
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.TaggingEntry",
+      "Name": "TaggingEntry",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.HistoryEntryV1",
+      "Name": "HistoryEntryV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.ProjectInfoV1",
+      "Name": "ProjectInfoV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.ProjectStoreV1",
+      "Name": "ProjectStoreV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.StoreConfigV1",
+      "Name": "StoreConfigV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.SystemCounterV1",
+      "Name": "SystemCounterV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.TagHistoryV1",
+      "Name": "TagHistoryV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.TagRecordV1",
+      "Name": "TagRecordV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.V1.TagReleaseRecordV1",
+      "Name": "TagReleaseRecordV1",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore.V1",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ValveBlocks",
+      "Name": "ValveBlocks",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ValveSizeMap",
+      "Name": "ValveSizeMap",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.ProjectStore.ValveTypeRef",
+      "Name": "ValveTypeRef",
+      "Namespace": "AutoCAD_Shared_Project.ProjectStore",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Tagging.TagIdParser",
+      "Name": "TagIdParser",
+      "Namespace": "AutoCAD_Shared_Project.Tagging",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Shared"
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Tagging.TagIdValidator",
+      "Name": "TagIdValidator",
+      "Namespace": "AutoCAD_Shared_Project.Tagging",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Utilities.AutoCADUtility",
+      "Name": "AutoCADUtility",
+      "Namespace": "AutoCAD_Shared_Project.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Utilities.DrawingHelpers",
+      "Name": "DrawingHelpers",
+      "Namespace": "AutoCAD_Shared_Project.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Utilities.DrawingSearcherFactory",
+      "Name": "DrawingSearcherFactory",
+      "Namespace": "AutoCAD_Shared_Project.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Utilities.SearchResult",
+      "Name": "SearchResult",
+      "Namespace": "AutoCAD_Shared_Project.Utilities",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Valves.BlockDefinitionRef",
+      "Name": "BlockDefinitionRef",
+      "Namespace": "AutoCAD_Shared_Project.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Valves.ValveDefinitionResolver",
+      "Name": "ValveDefinitionResolver",
+      "Namespace": "AutoCAD_Shared_Project.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Valves.ValveDynPropUtil",
+      "Name": "ValveDynPropUtil",
+      "Namespace": "AutoCAD_Shared_Project.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.Valves.ValveSizeMapInfo",
+      "Name": "ValveSizeMapInfo",
+      "Namespace": "AutoCAD_Shared_Project.Valves",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "AutoCAD_Shared_Project.XData.Class1",
+      "Name": "Class1",
+      "Namespace": "AutoCAD_Shared_Project.XData",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Name": "Document",
+      "Namespace": "Autodesk.AutoCAD.ApplicationServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.ApplicationServices.TransactionManager",
+      "Name": "TransactionManager",
+      "Namespace": "Autodesk.AutoCAD.ApplicationServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.AttributeCollection",
+      "Name": "AttributeCollection",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.AttributeReference",
+      "Name": "AttributeReference",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.BlockTableRecord",
+      "Name": "BlockTableRecord",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.Curve",
+      "Name": "Curve",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Name": "DBDictionary",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Name": "DBObject",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.Database",
+      "Name": "Database",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.Entity",
+      "Name": "Entity",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.Handle",
+      "Name": "Handle",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.HostApplicationServices",
+      "Name": "HostApplicationServices",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.OpenCloseTransaction",
+      "Name": "OpenCloseTransaction",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Name": "ResultBuffer",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.SymbolTable",
+      "Name": "SymbolTable",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.SymbolUtilityServices",
+      "Name": "SymbolUtilityServices",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Name": "Transaction",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Name": "TransactionManager",
+      "Namespace": "Autodesk.AutoCAD.DatabaseServices",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Name": "Editor",
+      "Namespace": "Autodesk.AutoCAD.EditorInput",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.EditorInput.KeywordCollection",
+      "Name": "KeywordCollection",
+      "Namespace": "Autodesk.AutoCAD.EditorInput",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Name": "PromptEntityOptions",
+      "Namespace": "Autodesk.AutoCAD.EditorInput",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.Geometry.Vector2d",
+      "Name": "Vector2d",
+      "Namespace": "Autodesk.AutoCAD.Geometry",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.Geometry.Vector3d",
+      "Name": "Vector3d",
+      "Namespace": "Autodesk.AutoCAD.Geometry",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "Autodesk.AutoCAD.Windows.PaletteSet",
+      "Name": "PaletteSet",
+      "Namespace": "Autodesk.AutoCAD.Windows",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "InteropSmokeTest",
+      "Name": "InteropSmokeTest",
+      "Namespace": "\u003Cglobal namespace\u003E",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "LayerValidationResult",
+      "Name": "LayerValidationResult",
+      "Namespace": "\u003Cglobal namespace\u003E",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "NODInspector",
+      "Name": "NODInspector",
+      "Namespace": "\u003Cglobal namespace\u003E",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "PipeDataHandler",
+      "Name": "PipeDataHandler",
+      "Namespace": "\u003Cglobal namespace\u003E",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": false,
+      "ProjectHint": ""
+    },
+    {
+      "Id": "System.Array",
+      "Name": "Array",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Collections.Generic.Dictionary\u003Cstring, AutoCAD_Shared_Project.ProjectStore.ProjectEntry\u003E",
+      "Name": "Dictionary",
+      "Namespace": "System.Collections.Generic",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Collections.Generic.Dictionary\u003Cstring, string\u003E",
+      "Name": "Dictionary",
+      "Namespace": "System.Collections.Generic",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Collections.Generic.IDictionary\u003Cstring, string\u003E",
+      "Name": "IDictionary",
+      "Namespace": "System.Collections.Generic",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Collections.Generic.List\u003CAutodesk.AutoCAD.DatabaseServices.TypedValue\u003E",
+      "Name": "List",
+      "Namespace": "System.Collections.Generic",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Collections.Generic.List\u003Cstring\u003E",
+      "Name": "List",
+      "Namespace": "System.Collections.Generic",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.ComponentModel.Component",
+      "Name": "Component",
+      "Namespace": "System.ComponentModel",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Convert",
+      "Name": "Convert",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Guid",
+      "Name": "Guid",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.IO.File",
+      "Name": "File",
+      "Namespace": "System.IO",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.IO.Path",
+      "Name": "Path",
+      "Namespace": "System.IO",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Linq.Enumerable",
+      "Name": "Enumerable",
+      "Namespace": "System.Linq",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Math",
+      "Name": "Math",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Tuple",
+      "Name": "Tuple",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Windows.Forms.ContainerControl",
+      "Name": "ContainerControl",
+      "Namespace": "System.Windows.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Windows.Forms.DataGridViewColumnCollection",
+      "Name": "DataGridViewColumnCollection",
+      "Namespace": "System.Windows.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Windows.Forms.DataGridViewRowCollection",
+      "Name": "DataGridViewRowCollection",
+      "Namespace": "System.Windows.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "System.Windows.Forms.MessageBox",
+      "Name": "MessageBox",
+      "Namespace": "System.Windows.Forms",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "char",
+      "Name": "Char",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "int",
+      "Name": "Int32",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
+      "Id": "string",
+      "Name": "String",
+      "Namespace": "System",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    }
+  ],
+  "Edges": [
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "AutoCAD2020.Tagging.Services.LineTagService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "Autodesk.AutoCAD.ApplicationServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.LineTagCommands",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Commands.TagManagerCommands",
+      "To": "AutoCAD2020.Tagging.UI.TagManagerPalette",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.BlockTagParser",
+      "To": "AutoCAD_Shared_Project.Tagging.TagIdParser",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.BlockTagParser",
+      "To": "System.Array",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.LineTagParser",
+      "To": "AutoCAD_Shared_Project.Tagging.TagIdParser",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.LineTagParser",
+      "To": "System.Array",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.LineTagParser",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "To": "AutoCAD_Shared_Project.Tagging.TagIdParser",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "To": "System.Array",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "To": "char",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "To": "int",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Parsers.ValveTagParser",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "To": "Autodesk.AutoCAD.DatabaseServices.BlockTableRecord",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Entity",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "To": "Autodesk.AutoCAD.DatabaseServices.SymbolTable",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.PropertiesHub.PipeRunProperties",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.PropertiesHub.XDataHelpers",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.PropertiesHub.XDataMap",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.Tagging.Models.LabelLinkData",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "AutoCAD2020.Tagging.Services.LineTagService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Curve",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Database",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Entity",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Handle",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.OpenCloseTransaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.Geometry.Vector2d",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "Autodesk.AutoCAD.Geometry.Vector3d",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "System.Convert",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "System.Math",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LabelLinkService",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "AutoCAD2020.CadInterop.XDataUtil",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "AutoCAD2020.Tagging.Abstractions.ITagService",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "AutoCAD2020.Tagging.Rendering.MTextRenderer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "AutoCAD2020.Tagging.Services.TagAllocator_V2",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Curve",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Entity",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.SymbolTable",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.Geometry.Vector2d",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "Autodesk.AutoCAD.Geometry.Vector3d",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "System.Collections.Generic.List\u003Cstring\u003E",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "System.Math",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "System.Tuple",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "int",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.LineTagService",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NODStoreAdapter",
+      "To": "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NODStoreAdapter",
+      "To": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "AutoCAD2020.Tagging.Abstractions.ITagNumberingStore",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "To": "System.Convert",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ProjectTagStoreAdapter",
+      "To": "AutoCAD_Shared_Project.ProjectStore.ProjectSettingsService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ProjectTagStoreAdapter",
+      "To": "System.Collections.Generic.Dictionary\u003Cstring, AutoCAD_Shared_Project.ProjectStore.ProjectEntry\u003E",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ProjectTagStoreAdapter",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "int",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.SmartLabelServices",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "AutoCAD2020.NOD_X_Data.ProjectStoreNod",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "AutoCAD_Shared_Project.ProjectStore.TagStoreV1",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Handle",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.SymbolTable",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAddService",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAllocator_V2",
+      "To": "AutoCAD2020.Tagging.Services.NodLineNumberStore",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAllocator_V2",
+      "To": "AutoCAD2020.Tagging.Services.ProjectTagStoreAdapter",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.TagAllocator_V2",
+      "To": "int",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "AutoCAD2020.Tagging.Services.ValveInsertService.ChangeHistoryHook",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.Document",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.AttributeCollection",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.AttributeReference",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.BlockTableRecord",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Database",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Entity",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.HostApplicationServices",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.SymbolTable",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.SymbolUtilityServices",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.Array",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.Collections.Generic.Dictionary\u003Cstring, string\u003E",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.Collections.Generic.IDictionary\u003Cstring, string\u003E",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.Guid",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.IO.File",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "System.IO.Path",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "To": "string",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "To": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodSequenceManager",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "AutoCAD2020.Tagging.Services.ValveInsertService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBObject",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Handle",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.Services.ValveInsertService.NodValveRegistry",
+      "To": "System.Collections.Generic.List\u003CAutodesk.AutoCAD.DatabaseServices.TypedValue\u003E",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.ComponentModel.IComponent",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.ComponentModel.ISynchronizeInvoke",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.IDisposable",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.ContainerControl",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.DataGridViewColumnCollection",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.DataGridViewRowCollection",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.IBindableComponent",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.IContainerControl",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.IDropTarget",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.IWin32Window",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.Layout.IArrangedElement",
+      "Kind": "Implements"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.MessageBox",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "To": "System.Windows.Forms.UserControl",
+      "Kind": "Inherits"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerPalette",
+      "To": "AutoCAD2020.Tagging.UI.TagManagerControl",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerPalette",
+      "To": "Autodesk.AutoCAD.Windows.PaletteSet",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.UI.TagManagerPalette",
+      "To": "System.ComponentModel.Component",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "AutoCAD2020.Block_Operations.XDataLinkUtil",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "AutoCAD_Shared_Project.ProjectStore.ProjectStoreService",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "AutoCAD_Shared_Project.ProjectStore.StoreGuards",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "AutoCAD_Shared_Project.ProjectStore.TagStoreV1",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.ApplicationServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.DBDictionary",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Handle",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.ResultBuffer",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.Transaction",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.DatabaseServices.TransactionManager",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.EditorInput.Editor",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.EditorInput.KeywordCollection",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "Autodesk.AutoCAD.EditorInput.PromptEntityOptions",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "System.IO.File",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "System.Linq.Enumerable",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.Tagging.services.TagManagerService",
+      "To": "string",
+      "Kind": "Calls"
+    }
+  ]
+}

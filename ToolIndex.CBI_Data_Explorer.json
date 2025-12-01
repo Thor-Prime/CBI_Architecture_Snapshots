@@ -1,0 +1,14 @@
+{
+  "Version": "1.0",
+  "ToolId": "CBI_Data_Explorer",
+  "RootNamespace": "AutoCAD2020.CBI_Data_Explorer",
+  "ClassIds": [
+    "AutoCAD2020.CBI_Data_Explorer.Collectors.IPropertyCollector",
+    "AutoCAD2020.CBI_Data_Explorer.Collectors.NODCollector",
+    "AutoCAD2020.CBI_Data_Explorer.Collectors.XDataCollector",
+    "AutoCAD2020.CBI_Data_Explorer.Collectors.XRecordCollector",
+    "AutoCAD2020.CBI_Data_Explorer.Models.PropertyItem",
+    "AutoCAD2020.CBI_Data_Explorer.UI.CBIDataExplorerControl",
+    "AutoCAD2020.CBI_Data_Explorer.UI.PaletteSetManager"
+  ]
+}

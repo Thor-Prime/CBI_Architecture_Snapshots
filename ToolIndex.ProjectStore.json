@@ -1,0 +1,25 @@
+{
+  "Version": "1.0",
+  "ToolId": "ProjectStore",
+  "RootNamespace": "AutoCAD2020.ProjectStore",
+  "ClassIds": [
+    "AutoCAD2020.ProjectStore.BindCurrentDrawingCommand",
+    "AutoCAD2020.ProjectStore.NewProjectCommands",
+    "AutoCAD2020.ProjectStore.OpenSupportFolderCommand",
+    "AutoCAD2020.ProjectStore.ProjectBindingChangedEventArgs",
+    "AutoCAD2020.ProjectStore.ProjectBindingService",
+    "AutoCAD2020.ProjectStore.ProjectContextBridge",
+    "AutoCAD2020.ProjectStore.ProjectNodBinder",
+    "AutoCAD2020.ProjectStore.ProjectRepairCommands",
+    "AutoCAD2020.ProjectStore.ProjectTagPath",
+    "AutoCAD2020.ProjectStore.ProjectTagStore",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.ConfigBlock",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.EditedHints",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.HistoryEvent",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.ProjectDrawingInfo",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.ProjectMetadata",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.SystemConfig",
+    "AutoCAD2020.ProjectStore.ProjectTagStore.TagRecord",
+    "AutoCAD2020.ProjectStore.ReconcileCurrentDrawing"
+  ]
+}

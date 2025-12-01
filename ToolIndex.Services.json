@@ -1,0 +1,18 @@
+{
+  "Version": "1.0",
+  "ToolId": "Services",
+  "RootNamespace": "AutoCAD2020.Services",
+  "ClassIds": [
+    "AutoCAD2020.Services.AddControlTagService",
+    "AutoCAD2020.Services.FormLauncher",
+    "AutoCAD2020.Services.TagAddService",
+    "AutoCAD2020.Services.TagIntegrityScan",
+    "AutoCAD2020.Services.TagNumberingService",
+    "AutoCAD2020.Services.TagValidationService",
+    "AutoCAD2020.Services.ValveLabelService",
+    "AutoCAD2020.Services.ValveLinkReporter",
+    "AutoCAD2020.Services.ValveTagService",
+    "AutoCAD2020.Services.XDataQaqc",
+    "AutoCAD2020.Services.XDataQaqcService"
+  ]
+}
