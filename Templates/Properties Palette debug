@@ -1,0 +1,19 @@
+Architect’s Lens ON.
+
+Repo:
+https://github.com/Thor-Prime/CBI_Architecture_Snapshots
+
+Load architecture:
+- ToolIndex: https://raw.githubusercontent.com/Thor-Prime/CBI_Architecture_Snapshots/main/ToolIndex.PropertiesHub.json
+- ClassGraph: https://raw.githubusercontent.com/Thor-Prime/CBI_Architecture_Snapshots/main/ClassGraph.PropertiesHub.json
+
+Scope:
+PropertiesHub (CBI Properties Palette)
+
+Issue:
+<describe what the palette is doing incorrectly or what error you're seeing>
+
+Additional context:
+- This tool interacts with ProjectStore v1.0
+- It reads via LineTagSettings, ProjectStoreService, and ProjectStoreValidator
+- It updates UI through CbiPropertiesPalette
