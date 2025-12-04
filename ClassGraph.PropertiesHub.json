@@ -2700,6 +2700,17 @@
       "ProjectHint": "Other"
     },
     {
+      "Id": "Newtonsoft.Json.Linq.JObject",
+      "Name": "JObject",
+      "Namespace": "Newtonsoft.Json.Linq",
+      "FilePath": "",
+      "BaseTypes": [],
+      "Interfaces": [],
+      "MethodCount": 0,
+      "IsExternal": true,
+      "ProjectHint": "Other"
+    },
+    {
       "Id": "PipeDataHandler",
       "Name": "PipeDataHandler",
       "Namespace": "\u003Cglobal namespace\u003E",
@@ -3503,6 +3514,11 @@
     {
       "From": "AutoCAD2020.PropertiesHub.PropertiesControl",
       "To": "Newtonsoft.Json.JsonConvert",
+      "Kind": "Calls"
+    },
+    {
+      "From": "AutoCAD2020.PropertiesHub.PropertiesControl",
+      "To": "Newtonsoft.Json.Linq.JObject",
       "Kind": "Calls"
     },
     {
