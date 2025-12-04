@@ -1,5 +1,3 @@
----
-
 📄 CBI_Architectural_Debugging_SOP.md
 
 # CBI Architectural Debugging SOP  
